@@ -1,5 +1,5 @@
 function [f,g] = MLPregressionLoss(w,X,y,nHidden)
-% matLearn_regression_GAM(X,y,options)
+% MLPregressionLoss(w,X,y,nHidden)
 %
 % Description:
 %       - Computes the Back Propogation Algorithm
