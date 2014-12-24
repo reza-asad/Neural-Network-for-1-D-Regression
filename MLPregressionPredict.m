@@ -1,4 +1,13 @@
 function [y] = MLPregressionPredict(w,X,nHidden)
+% MLPregressionPredict(w,X,y,nHidden)
+%
+% Description:
+%       - Predicts the Model for the 1D Regression
+%
+% nHidden:
+%       - This is the number of hidden layers in the Neural Network.
+%
+% Author: Reza Asad (2014)
 
 [nInstances,nVars] = size(X);
 
