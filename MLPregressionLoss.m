@@ -1,4 +1,13 @@
 function [f,g] = MLPregressionLoss(w,X,y,nHidden)
+% matLearn_regression_GAM(X,y,options)
+%
+% Description:
+%       - Computes the Back Propogation Algorithm
+%
+% nHidden:
+%       - This is the number of hidden layers in the Neural Network.
+%
+% Author: Reza Asad (2014)
 
 [nInstances,nVars] = size(X);
 
