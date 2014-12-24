@@ -1,4 +1,4 @@
-function [f,g] = MLPregressionLoss(w,X,y,nHidden)
+function [g] = MLPregressionLoss(w,X,y,nHidden)
 % MLPregressionLoss(w,X,y,nHidden)
 %
 % Description:
