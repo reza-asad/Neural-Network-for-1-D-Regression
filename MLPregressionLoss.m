@@ -2,7 +2,7 @@ function [f,g] = MLPregressionLoss(w,X,y,nHidden)
 % MLPregressionLoss(w,X,y,nHidden)
 %
 % Description:
-%       - Computes the Back Propogation Algorithm
+%       - Computes the Gradient Using Back Propogation Algorithm
 %
 % nHidden:
 %       - This is the number of hidden layers in the Neural Network.
